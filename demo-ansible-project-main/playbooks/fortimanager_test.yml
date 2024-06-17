@@ -1,8 +1,0 @@
----
-- hosts: all
-  gather_facts: true
-
-  tasks:
-    - fortinet.fortimanager.fmgr_fact:
-        facts:
-          selector: 'pkg_firewall_policy'

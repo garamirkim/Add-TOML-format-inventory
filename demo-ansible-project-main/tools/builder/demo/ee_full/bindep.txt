@@ -1,2 +1,0 @@
-tree [platform:rpm]
-procps-ng [platform:rpm]

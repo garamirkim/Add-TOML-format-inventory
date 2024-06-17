@@ -1,7 +1,0 @@
----
-- hosts: all
-  gather_facts: true
-
-  tasks:
-    - debug:
-        msg: "{{ ansible_playbook_python }}"
